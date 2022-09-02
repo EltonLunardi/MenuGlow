@@ -1,0 +1,45 @@
+body{
+	margin: 0px;
+}
+.dvDefault{
+	margin: 10px;
+}
+.dvStyle{
+	margin: 0px;
+	background-color: #1C1C1C;
+	padding: 10px;
+}
+ul{
+	padding-left: 10px;
+}
+ul.listDefault li a:visited{
+	color: #00F;
+}
+ul.listStyle li{
+	margin-left: 2px;
+	margin-bottom: 2px;
+	list-style-type: none;
+}
+ul.listStyle li a{
+	padding-left: 3px;
+	text-decoration: none;
+	color: #FFF;
+	font-family: Arial;
+	border-left: 3px solid #FF8C00;
+}
+ul.listStyle li a:visited{
+	color: #FFF;
+}
+ul.listStyle li a:hover{
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 3px #CD6600, 0 0 4px #CD6600, 0 0 5px #CD6600, 0 0 6px #CD6600, 0 0 7px #CD6600;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 5px #FFA500, 0 0 6px #FFA500, 0 0 7px #FFA500, 0 0 8px #FFA500, 0 0 9px #FFA500, 0 0 10px #FFA500;
+  }
+}
